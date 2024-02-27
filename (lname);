@@ -1,0 +1,6 @@
+        setLastName(lname); 
+        setMiddleName(mname); 
+        setGender(gender); 
+        setStreet1(street1); 
+        setStreet2(street2); 
+        setCity(city); 
