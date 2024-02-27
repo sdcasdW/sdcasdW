@@ -1,0 +1,5 @@
+        setPostalCode(postalcode); 
+        setCountry(country); 
+        setEmail(email); 
+        setPhone(phone); 
+        setFixedPhone(phone);
