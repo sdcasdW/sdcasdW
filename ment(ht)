@@ -1,0 +1,3 @@
+parameters.addElement(ht); 
+ 
+// Send the request to Content Delivery Server 
