@@ -1,0 +1,5 @@
+     // once, and can be reused for multiple requests.
+      BigQuery bigquery = BigQueryOptions.getDefaultInstance().getService();
+
+      QueryJobConfiguration queryConfig =
+          QueryJobConfiguration.newBuilder(query).setDryRun(true).setUseQueryCache(false).build();
