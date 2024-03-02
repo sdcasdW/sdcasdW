@@ -1,0 +1,4 @@
+pygame.init()
+bg_size = width, height = 400, 700
+screen = pygame.display.set_mode(bg_size)
+pygame.display.set_caption("飞机大战")
