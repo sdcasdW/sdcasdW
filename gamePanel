@@ -1,0 +1,5 @@
+        gamePanel = new JPanel(null);
+        p = new myPanel();
+        p.setBackground(Color.WHITE);
+        r = new Random();
+        messgePanel = new PanelShow();
