@@ -1,0 +1,4 @@
+        try {
+            myTank = new Tank(selfBorn.getX(), selfBorn.getY(), true, allTanks,
+                    walls, irons, golds, missles, home, booms, style);
+        } catch (Exception e1) {
