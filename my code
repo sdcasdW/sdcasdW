@@ -1,0 +1,6 @@
+        myTank.setDir(Direction.U);
+ 
+        allTanks.add(myTank);
+        addTank();
+        try {
+            backGround = new ImageIcon(
