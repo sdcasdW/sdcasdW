@@ -1,0 +1,6 @@
+        textView.setTextSize(24);
+        textView.setTextColor(getResources().getColor(R.color.fontColor));
+        textView.setGravity(Gravity.CENTER);
+        textView.setBackgroundColor(getResources().getColor(
+                android.R.color.darker_gray));
+        Builder nextLevel = new Builder(mContext);
