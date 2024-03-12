@@ -1,0 +1,8 @@
+		printf("The n must no less than 1!\n");
+		return;
+	}
+
+	for(i=1;i<=n;i++)
+	{
+		temp=0;
+		for(j=1;j<=i;j++)
