@@ -1,0 +1,8 @@
+{
+	int i,j,n;
+	long sum=0,temp=0;
+
+	printf("Please input a number to n:\n");
+	scanf("%d",&n);
+	if(n<1)
+	{
