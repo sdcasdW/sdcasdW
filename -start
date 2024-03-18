@@ -1,0 +1,7 @@
+            System.arraycopy(array,0,arraydest,0,size);
+        }
+        long useTime = System.cu            System.arraycopy(array,0,arraydest,0,size);
+        }
+        long useTime = System.currentTimeMillis()-start;
+        System.out.println("useTime:"+useTime);TimeMillis()-start;
+        System.out.println("useTime:"+useTime);
