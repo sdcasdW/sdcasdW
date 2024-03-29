@@ -1,0 +1,6 @@
+    @PostMapping("/alarm") public void alarm(@RequestBody List<AlarmMessageDTO> alarmMessageDTOList) {
+       log.info(": {}", JSON.toJSONString(alarmMessageDTOList)); if (null != alarmMessageDTOList) {
+           alarmMessageDTOList.forEach(e->dingTalkAlarmService.sendMessage(MessageFormat.format("-----etName(), e.getAlarmMessage())));
+       }
+    }
+}
